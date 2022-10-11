@@ -51,3 +51,10 @@
 .button:disabled{
     color: grey;
 }
+
+.buttonContainer{
+    display: flex;
+}
+.buttonContainer > button {
+    margin-right: 10px;
+}

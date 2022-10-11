@@ -1,0 +1,33 @@
+.table{
+    text-align: center;
+    color: #E5EAF9;
+    width: 100%;
+}
+
+.text{
+    color: #E5EAF9;
+}
+
+.cell{
+    border: 1px solid #E5EAF9;
+}
+
+.header{
+    padding-top: 30px;
+    color: #E5EAF9;
+    font-size: 32px;
+}
+
+.pagination{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    list-style: none;
+    color: #E5EAF9;
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+.item ~ .selected{
+    color: red;
+}

@@ -1,6 +1,5 @@
 import React from "react";
 import styles from './Home.module.css'
-import {Modal} from "../../components/Modal/Modal";
 import {useDispatch, useSelector} from "react-redux";
 import {useNavigate} from "react-router-dom";
 import {startGameAction} from "../../redux/gameReducer/actions";
@@ -24,6 +23,5 @@ export const Home = () => {
         <button className={styles.menuItem} disabled>
             Confrontation
         </button>
-        <Modal/>
     </div>
 }
