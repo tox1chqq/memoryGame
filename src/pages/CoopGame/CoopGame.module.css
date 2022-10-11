@@ -1,0 +1,26 @@
+.header{
+    font-size: 36px;
+    color: #E5EAF9;
+}
+.form{
+    display: flex;
+}
+
+.input{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    background-color: transparent;
+}
+
+.formItem{
+    margin-right: 10px;
+}
+
+.text{
+    color: #E5EAF9;
+}
+
+.button{
+
+}
