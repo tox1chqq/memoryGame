@@ -34,7 +34,7 @@ export const Game = () => {
         if (cards.length < 1){
             navigate('/')
         }
-    })
+    },[])
 
     return <Layout>
         <div className={styles.info}>

@@ -1,17 +1,14 @@
 import React from "react";
 import styles from './Home.module.css'
 import {useDispatch, useSelector} from "react-redux";
-import {useNavigate} from "react-router-dom";
-import {startGameAction} from "../../redux/gameReducer/actions";
+import {showModalAction} from "../../redux/gameReducer/actions";
 
 export const Home = () => {
     const {playerName} = useSelector(state => state.game)
-    const navigate = useNavigate()
     const dispatch = useDispatch()
 
     const handleStatGame = () => {
-        dispatch(startGameAction())
-        navigate('/game')
+        dispatch(showModalAction())
     }
 
     return <div className={styles.menuWrapper}>

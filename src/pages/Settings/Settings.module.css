@@ -31,3 +31,13 @@
 .item ~ .selected{
     color: red;
 }
+.button{
+    color: #E5EAF9;
+    padding: 9px 30px;
+
+    background: linear-gradient(90.9deg, rgba(247, 58, 245, 0.24) 3.28%, rgba(23, 178, 222, 0.24) 97.89%);
+    box-shadow: 6px 7px 22px rgba(0, 0, 0, 0.35);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}

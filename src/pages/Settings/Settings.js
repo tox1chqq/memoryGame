@@ -1,13 +1,15 @@
 import {Layout} from "../../components/Layout/Layout";
-import {useSelector} from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
 import styles from './Settings.module.css'
 import {useEffect, useState} from "react";
 import ReactPaginate from "react-paginate";
 import { useNavigate} from "react-router-dom";
+import {resetGameAction} from "../../redux/gameReducer/actions";
 
 export const Settings = () => {
     const { history, playerName } = useSelector(state => state.game)
 
+    const dispatch = useDispatch()
     const navigate = useNavigate()
 
     const [currentItems, setCurrentItems] = useState([]);
@@ -32,9 +34,15 @@ export const Settings = () => {
         }
     },[])
 
+    const handleResetGame = () => {
+        navigate('/')
+        dispatch(resetGameAction())
+    }
+
     return <Layout>
         <h3 className={styles.header}>Game History</h3>
         <p className={styles.text}>Player name: {playerName}</p>
+        <button onClick={() => handleResetGame()} className={styles.button}>Reset game</button>
         <table className={styles.table}>
             <thead>
             <tr>

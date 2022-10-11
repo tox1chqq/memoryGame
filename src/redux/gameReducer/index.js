@@ -10,7 +10,7 @@ import {
 } from "../types";
 
 const initialValue = {
-    isShowModal: true,
+    isShowModal: false,
     playerName: '',
     cards:[],
     count: 0,
