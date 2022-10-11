@@ -29,13 +29,12 @@ export const Card = ({ card }) => {
 
   return (
     <div className={styles.card}>
-      <div className={styles.cardWrapper} onClick={() => handleClick()}>
-        <img
-          className={showCardImg ? styles.hide : styles.background}
-          src={background}
-          alt="Background"
-        />
-        <img className={styles.img} src={card.src} alt="Image" />
+      <div
+        className={showCardImg ? [styles.flipped] : ""}
+        onClick={() => handleClick()}
+      >
+        <img className={styles.front} src={card.src} alt="Image" />
+        <img className={styles.back} src={background} alt="Background" />
       </div>
     </div>
   );

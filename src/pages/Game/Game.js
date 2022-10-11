@@ -29,7 +29,7 @@ export const Game = () => {
 
   useEffect(() => {
     if (firstPick && secondPick && firstPick.src !== secondPick.src) {
-      setTimeout(() => dispatch(resetPicksAction()), 300);
+      setTimeout(() => dispatch(resetPicksAction()), 500);
     }
   }, [firstPick, secondPick]);
 
