@@ -1,7 +1,6 @@
 import {useDispatch, useSelector} from "react-redux";
-import {Card} from "../../components/Card/Card";
 import styles from  './Game.module.css'
-import {Layout} from "../../components/Layout/Layout";
+import {Card, Layout} from "../../components";
 import {useEffect} from "react";
 import {resetPicksAction, setFinishGameAction, showCardAction} from "../../redux/gameReducer/actions";
 import {useNavigate} from "react-router-dom";

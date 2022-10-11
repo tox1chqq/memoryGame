@@ -40,8 +40,6 @@ export const gameReducer = ( state = initialValue, action) => {
             return  {...state, firstPick: undefined, secondPick: undefined}
         case SHOW_CARD:
             return {...state, count: state.count + 5, firstPick: undefined, secondPick: undefined, cards: state.cards.map(card => card.id === action.payload.firstId || card.id === action.payload.secondId ? {...card, selected: true } : card)}
-        case INCREMENT_COUNT:
-            return  {...state, count: state.count + 5}
         case RESET_GAME:
             return {...initialValue}
         case SET_FINISH_GAME:

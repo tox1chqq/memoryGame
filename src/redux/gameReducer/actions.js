@@ -44,10 +44,6 @@ export const resetPicksAction = () => {
     return {type: RESET_PICKS}
 }
 
-export const incrementCountAction = () => {
-    return { type: INCREMENT_COUNT}
-}
-
 export const addToHistoryAction = (info) => {
     return { type : ADD_TO_HISTORY, payload: info}
 }

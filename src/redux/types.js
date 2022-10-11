@@ -2,7 +2,6 @@ export const SHOW_MODAL = 'SHOW_MODAL';
 export const HIDE_MODAL = 'HIDE_MODAl';
 export const SET_PLAYER_NAME = 'SET_PLAYER_NAME';
 export const START_GAME = 'START_GAME';
-export const INCREMENT_COUNT = 'INCREMENT_COUNT'
 export const SET_FIRST_PICK = 'SET_FIRST_PICK'
 export const SET_SECOND_PICK = 'SET_SECOND_PICK'
 export const  SHOW_CARD = "SHOW_CARD"

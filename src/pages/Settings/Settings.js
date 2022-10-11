@@ -1,4 +1,4 @@
-import {Layout} from "../../components/Layout/Layout";
+import {Layout} from "../../components";
 import {useDispatch, useSelector} from "react-redux";
 import styles from './Settings.module.css'
 import {useEffect, useState} from "react";
