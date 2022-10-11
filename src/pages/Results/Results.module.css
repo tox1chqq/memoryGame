@@ -1,0 +1,47 @@
+.table {
+  text-align: center;
+  color: #e5eaf9;
+  width: 100%;
+}
+
+.text {
+  color: #e5eaf9;
+}
+
+.cell {
+  border: 1px solid #e5eaf9;
+}
+
+.header {
+  padding-top: 30px;
+  color: #e5eaf9;
+  font-size: 32px;
+}
+
+.pagination {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  list-style: none;
+  color: #e5eaf9;
+  cursor: pointer;
+  padding-top: 10px;
+}
+
+.item ~ .selected {
+  color: red;
+}
+.button {
+  color: #e5eaf9;
+  padding: 9px 30px;
+
+  background: linear-gradient(
+    90.9deg,
+    rgba(247, 58, 245, 0.24) 3.28%,
+    rgba(23, 178, 222, 0.24) 97.89%
+  );
+  box-shadow: 6px 7px 22px rgba(0, 0, 0, 0.35);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}

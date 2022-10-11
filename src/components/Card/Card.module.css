@@ -1,24 +1,22 @@
-.cardWrapper{
-    flex: 0 0 15%;
-    cursor: pointer;
-    margin: 10px;
+.cardWrapper {
+  flex: 0 0 15%;
+  cursor: pointer;
+  margin: 10px;
 }
 
-.img{
-   width: 88px;
-    height: 64px;
-    border-radius: 8px;
-
+.img {
+  width: 88px;
+  height: 64px;
+  border-radius: 8px;
 }
 
-.background{
-    width: 88px;
-    height: 64px;
-    border-radius: 8px;
-    position: absolute
+.background {
+  width: 88px;
+  height: 64px;
+  border-radius: 8px;
+  position: absolute;
 }
 
-.hide{
-    display: none;
-
+.hide {
+  display: none;
 }

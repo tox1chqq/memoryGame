@@ -1,60 +1,69 @@
-.modal{
-    position: absolute;
-    top: 10%;
-    left: 35%;
-    width: 700px;
-    height: 350px;
-
-    background: #131528;
-    box-shadow: 6px 7px 22px rgba(0, 0, 0, 0.35);
-    border-radius: 30px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+:root {
+  --main-text-color: #e5eaf9;
+  --main-bg-color: #131528;
 }
 
-.header{
-    margin: 0;
-    font-size: 32px;
-    color: #E5EAF9;
+.modal {
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  width: 700px;
+  height: 350px;
+
+  background: var(--main-bg-color);
+  box-shadow: 6px 7px 22px rgba(0, 0, 0, 0.35);
+  border-radius: 30px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.input{
-    border-top: none;
-    border-right: none;
-    border-left: none;
-
-    font-size: 24px;
-    font-weight: bold;
-
-    background-color: transparent;
-    color: #E5EAF9;
+.header {
+  margin: 0;
+  font-size: 32px;
+  color: var(--main-text-color);
 }
 
-.input:focus{
-    outline: none;
+.input {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+
+  font-size: 24px;
+  font-weight: bold;
+
+  background-color: transparent;
+  color: var(--main-text-color);
 }
 
-.button{
-    color: #E5EAF9;
-    padding: 9px 30px;
-
-    background: linear-gradient(90.9deg, rgba(247, 58, 245, 0.24) 3.28%, rgba(23, 178, 222, 0.24) 97.89%);
-    box-shadow: 6px 7px 22px rgba(0, 0, 0, 0.35);
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
+.input:focus {
+  outline: none;
 }
 
-.button:disabled{
-    color: grey;
+.button {
+  color: var(--main-text-color);
+  padding: 9px 30px;
+
+  background: linear-gradient(
+    90.9deg,
+    rgba(247, 58, 245, 0.24) 3.28%,
+    rgba(23, 178, 222, 0.24) 97.89%
+  );
+  box-shadow: 6px 7px 22px rgba(0, 0, 0, 0.35);
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
 }
 
-.buttonContainer{
-    display: flex;
+.button:disabled {
+  color: grey;
+}
+
+.buttonContainer {
+  display: flex;
 }
 .buttonContainer > button {
-    margin-right: 10px;
+  margin-right: 10px;
 }

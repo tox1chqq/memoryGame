@@ -1,17 +1,17 @@
-.info{
-    padding-top: 50px;
-    display: flex;
-    justify-content: space-between;
+.info {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
 }
-.infoText{
-    color: white;
-    margin-right: 20px;
+.infoText {
+  color: white;
+  margin-right: 20px;
 }
 
-.cardList{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(5, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+.cardList {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
 }

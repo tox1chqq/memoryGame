@@ -1,13 +1,10 @@
-import {combineReducers, createStore} from "redux";
-import {gameReducer} from "./gameReducer";
-
+import { combineReducers, createStore } from "redux";
+import { gameReducer } from "./gameReducer";
 
 const rootReducer = combineReducers({
-    game: gameReducer
-})
+  game: gameReducer,
+});
 
+const store = createStore(rootReducer);
 
-const store = createStore(rootReducer)
-
-
-export default store
+export default store;
