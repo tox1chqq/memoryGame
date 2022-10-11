@@ -1,9 +1,9 @@
 .modal{
     position: absolute;
     top: 15%;
-    left: 30%;
-    width: 600px;
-    height: 300px;
+    left: 27%;
+    width: 700px;
+    height: 350px;
 
     background: #131528;
     box-shadow: 6px 7px 22px rgba(0, 0, 0, 0.35);
