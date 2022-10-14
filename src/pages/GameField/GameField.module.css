@@ -1,0 +1,24 @@
+:root {
+    --main-text-color: #fff;
+    --main-bg-color: #131528;
+    --disabled-color: grey;
+}
+
+.wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.cardList {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.playerName{
+    color: var(--main-text-color);
+    text-align: center;
+}
